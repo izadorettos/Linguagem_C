@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    float kilos, preco_total;
+    float preco_kg = 9.50;
+
+    printf("Digite a quantidade de kilos de maçã: ");
+    scanf("%f", &kilos);
+
+    preco_total = kilos * preco_kg;
+
+    printf("O valor da compra é: R$ %.2f\n", preco_total);
+
+    return 0;
+}
